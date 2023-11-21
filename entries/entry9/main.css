@@ -1,0 +1,111 @@
+body {
+	background-color:FFFFFB;
+}
+
+.heading{
+	color:#124E78;
+	font-family: "angie-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
+margin-left: 60px;
+}
+
+.er {
+	    display:flex;
+		width: 1000px;
+		height: 500px;
+		justify-content: center;
+		align-content: center
+	}
+
+		h4{
+	color: #124E78;
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+.para1 {
+	  margin-right: 80px;
+  margin-left: 80px;
+  text-align: justify;
+  text-justify: inter-word;
+font-size:24px;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+color:#124E78;
+}
+
+.t1{
+	color: #124E78;
+  font-family: "edita", serif;
+font-weight: 400;
+font-style: italic;
+color:#E1CE7A
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+
+.scroll {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 30px;
+}
+
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+.ergif {
+	display:flex;
+		width: 1000px;
+		height: 500px;
+		justify-content: center;
+		align-content: center;
+		margin-left:275px;
+}
+
+.music {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.m1 {
+	
+
+	color:white;
+	background-color: #124E78;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+	font-size:28px;
+	margin-top: 100px;
+	margin-left: -170px;
+	margin-right: -170px;
+
+
+}
+
+
+.poetry {  margin-left: 80px;
+	text-align: left;
+	font-size:24px;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+color:#124E78;
+position: relative;
+  top: 100px;
+
+
+}

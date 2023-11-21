@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      transition: background 0.3s ease;
+      background: #21221B;
+      color: white;
+    }
+
+    header {
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    section {
+      height: 1000px;
+      padding: 20px;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Website</h1>
+  </header>
+
+  <section>
+    <!-- Your content goes here -->
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var body = document.body;
+      var previousScroll = window.scrollY;
+
+      window.addEventListener('scroll', function () {
+        var scrollPosition = window.scrollY;
+        var scrollDirection = (scrollPosition > previousScroll) ? 'down' : 'up';
+        var targetColor = getColorFromScrollPosition(scrollPosition);
+
+        // Update background color on scroll
+        body.style.background = targetColor;
+
+        // Update previous scroll position
+        previousScroll = scrollPosition;
+      });
+
+      // Function to determine the background color based on scroll position
+      function getColorFromScrollPosition(scrollPosition) {
+        var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        var scrollPercentage = scrollPosition / maxScroll;
+        var startColor = [33, 34, 27]; // RGB values for #21221B
+        var endColor = [25, 100, 126]; // RGB values for #19647E
+
+        // Interpolate between start and end colors
+        var currentColor = startColor.map((start, i) => {
+          var end = endColor[i];
+          return Math.round(start + scrollPercentage * (end - start));
+        });
+
+        return `rgb(${currentColor.join(',')})`;
+      }
+    });
+  </script>
+</body>
+</html>

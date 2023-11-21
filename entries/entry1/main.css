@@ -1,0 +1,197 @@
+h1 {
+	font-family: "angie-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
+margin-left: 60px;
+color: #003249;
+}
+
+body 
+{
+	background-color: #B8BEDD;
+}
+
+.intro 
+{
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+margin-left: 60px;
+margin-right: 120px;
+color: #003249;
+font-size: 24px;
+}
+
+.river 
+
+{
+	max-width:100%;
+	 display:flex;
+		width: 1500px;
+		height: 500px;
+		justify-content: center;
+		align-content: center
+}
+
+.caption
+
+{
+
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+color: #003249;
+
+}
+
+.sights {
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	margin-right: 120px;
+}
+
+.p1 {
+	display:flex;
+		width: 280px;
+		height: 500px;
+		padding: 100px;
+		}
+
+		.p2 {
+	display:flex;
+		width: 280px;
+		height: 500px;
+		padding: 100px
+		}
+
+		.p3 {
+	display:flex;
+		width: 280px;
+		height: 500px;
+		padding: 100px;
+		}
+
+		.q 
+
+		{
+			font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 32px;
+color: #003249;
+margin-left: 120px;
+margin-right: 120px;
+		}
+
+		.love {
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	margin-right: 100px;
+}
+
+.love1 {
+	display:flex;
+	max-width: 100%;
+		width: 300px;
+		height: 500px;
+		padding: 100px;
+		}
+
+		.love2 {
+	display:flex;
+	max-width: 100%;
+		width: 300px;
+		height: 500px;
+		padding: 100px
+		}
+
+		.text1 {
+			font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 24px;
+color: #003249;
+margin-left: 120px;
+margin-right: 120px;
+
+		}
+
+		.text2 {
+
+			font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+color: #003249;
+margin-left: 120px;
+margin-right: 120px;
+text-align: justify;
+    text-align-last: center;
+
+		}
+
+		.type 
+		{
+			font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 32px;
+color: #003249;
+
+overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+		}
+
+		@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.poet
+
+{
+	max-width:100%;
+	 display:flex;
+		width: 2400px;
+		height: 800px;
+		justify-content: center;
+		align-content: center
+
+}
+
+.mypoem
+
+{
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 32px;
+color: #003249;
+}
+
+.poem{
+	margin-left: 60px;
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+color: #003249;
+
+}
+
+
+

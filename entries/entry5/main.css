@@ -1,0 +1,163 @@
+body {
+	background-color:#FF8370 ;
+}
+
+
+
+.sun {
+  position: absolute;
+  left: 200px;
+  width: 200px;
+  height: 120px;
+  margin-top: 270px;
+}
+
+.flower {
+  position: absolute;
+  left: 520px;
+  width: 200px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.bloo {
+  position: relative;
+  left: 480px;
+  top: 370px;
+  width: 200px;
+  height: 120px;
+  margin-left: 600px;
+}
+
+.er3
+{
+		margin-top: -300px;
+}
+
+h1 {
+	font-family: "angie-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
+margin-left: 60px;
+color: #3A5683;
+
+}
+
+h4 {
+	color:#3A5683;
+font-family: "edita", serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.para1 {
+	  margin-right: 750px;
+  margin-left: 80px;
+font-size:24px;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+text-align: left;
+color:#3A5683;
+border-style: dashed;
+border-color:#3A5683; 
+border-radius: 20px;
+background-color: #BFD1E5;
+border-width: 6px;
+padding: 30px;
+}
+
+.note { position: relative;
+  left: 250px;
+  top: -550px;
+  width: 200px;
+  height: 120px;
+  margin-left: 600px;
+
+}
+
+.polaroids
+{
+ position: relative;
+  left: 20px;
+  top: -350px;
+  display:flex;
+  flex-direction: row;
+    width: 100%;
+}
+
+.poetry 
+
+{
+	position: relative;
+
+  top: 600px;
+	text-align: left;
+	margin-left: -1200px;
+	font-size:24px;
+font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+color: #3A5683;
+border-style: dashed;
+border-color:#3A5683; 
+border-radius: 20px;
+background-color: #F8D34F;
+border-width: 6px;
+padding: 30px;
+}
+
+/*.musicb
+
+{ position: absolute;
+  left: 740px;
+  top: 200px;
+}
+*/
+
+.music 
+
+{
+	width: 200px;
+	height: 240px;
+	position: absolute;
+ 	left: 740px;
+  	top: 270px;
+  	background-color:transparent;
+  	border-width:0px;
+}
+
+.audio 
+
+{position: relative;
+ 	left: 160px;
+  	top: 1000px;
+
+}
+
+
+.books
+{
+ position: absolute;
+  left: 24px;
+  top: 1500px;
+  display:flex;
+  flex-direction: row;
+    width: 100%;
+}
+
+.text1 {
+
+  font-size:32px;
+font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+color: #3A5683;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,261 @@
+body{
+	background-color:#FFD166;
+}
+h1 {
+    font-family: "angie-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
+margin-left: 60px;
+color: #003249;
+
+}
+
+.river 
+
+{
+	max-width:100%;
+	 display:flex;
+		width: 1500px;
+		height: 500px;
+		justify-content: center;
+		align-content: center
+
+}
+
+.caption
+
+{
+
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+color: #003249;
+
+}
+
+.intro 
+{
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+margin-left: 60px;
+margin-right: 800px;
+color: #003249;
+font-size: 24px;
+}
+
+.night {
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	margin-right: 20px;
+	margin-left: 40px;
+}
+
+.p1 {
+	display:flex;
+		width: 280px;
+		height: 500px;
+		padding: 100px;
+		}
+
+		.p2 {
+	display:flex;
+		width: 280px;
+		height: 500px;
+		padding: 100px
+		}
+
+		.p3 {
+	display:flex;
+		width: 280px;
+		height: 500px;
+		padding: 100px;
+		}
+
+
+
+}
+	.poetry{
+		font-size: 18px;
+		font-family:Courier New;
+
+
+		}
+	
+	.con1 {
+
+	color:#003249;
+font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 32px;
+text-align: center;
+position:relative; top: 675px; right: 725px;
+	
+}
+
+	.boat{
+		color:darkslategray;
+	}
+
+
+
+.text {color: cornflowerblue;
+
+}
+
+.box1{
+	color:white;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+	width: 400px;
+	height: 200px;
+	background-color:#122932;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+
+}
+
+.box1:hover{
+	font-size: 0;
+}
+
+.box1:hover:after{
+	content: attr(data-hover);
+	font-size:24px;
+}
+
+.box1{
+	color:white;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+	width: 400px;
+	height: 200px;
+	background-color:#122932;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+
+}
+
+.box2:hover{
+	font-size: 0;
+}
+
+.box2:hover:after{
+	content: attr(data-hover);
+	font-size:24px;
+	text-align: center;
+}
+
+.box2{
+	
+	color:white;
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+	width: 400px;
+	height: 200px;
+	background-color:#122932;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+
+}
+
+.box3:hover{
+	font-size: 0;
+}
+
+.box3:hover:after{
+	content: attr(data-hover);
+	font-size:24px;
+	text-align: center;
+}
+
+.box3{
+	color:white;
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+	width: 400px;
+	height: 200px;
+	background-color:#122932;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.container{
+
+    position: relative;
+}
+
+.box1 {
+    position: absolute;
+    left: 50px;
+}
+
+.box2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box3 {
+    position: absolute;
+    right: 50px;
+}
+
+.poetry{
+	margin-left: 60px;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 24px;
+color: #003249;
+
+}
+
+.look
+ {  
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	margin-right: 100px;
+	margin-left: 250px;
+}
+
+.h1 {
+	display:flex;
+	max-width: 150%;
+		width: 500px;
+		height: 700px;
+		padding: 100px;
+		}
+
+		.h2 {
+	display:flex;
+	max-width: 150%;
+		width: 500px;
+		height: 700px;
+		padding: 100px
+		}
+
+		.text
+		{font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 32px;
+color: #003249;
+margin-left: -600px}
+
+

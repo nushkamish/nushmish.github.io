@@ -1,0 +1,135 @@
+ body {
+	background-color:black ;
+}
+
+h1 {
+	font-family: "angie-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
+margin-left: 60px;
+color: #F9C80E;
+
+}
+
+h4{
+	color: #F9C80E;
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.con1 {
+	color:black;
+	background-color: #F9C80E;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+	font-size:28px;
+	padding: 18px
+
+}
+
+.para1 {
+	  margin-right: 750px;
+  margin-left: 80px;
+  text-align: justify;
+  text-justify: inter-word;
+font-size:24px;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+color:#F9C80E;
+}
+
+.clock 
+{
+	position: relative;
+	left: 400px;
+  top: -450px;
+}
+
+.lollipop
+{
+ position: relative;
+  left: 20px;
+  top: -400px;
+  display:flex;
+  flex-direction:row;
+    width: 100%;
+}
+
+.con2 {
+	color:black;
+	background-color: #F9C80E;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+	font-size:28px;
+	padding: 18px
+	position: relative;
+  left: 20px;
+  top: 2000px;
+  margin-top:-500px;
+}
+
+.poetry {  margin-left: 80px;
+	text-align: left;
+	font-size:24px;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+color:#F9C80E;
+position: relative;
+  top: -300px;
+
+}
+
+.mask
+
+{
+	position: relative;
+	left: 750px;
+  top: -700px;
+}
+
+
+@media (max-width: 650px) {
+  body {
+    background-color: #F9C80E;
+  }
+
+  h1 {
+  	color: black;
+  }
+  .poetry {
+  	color: black;
+
+  }
+
+  .para1 {
+  	color:black;
+
+}
+
+.lollipop
+{
+ position: relative;
+  left: 20px;
+  top: -400px;
+  display:flex;
+  flex-direction:column;
+    width: 100%;
+}
+
+.er {
+	    display:flex;
+		width: 50px;
+		height: 25px;
+		justify-content: left;
+
+
+	}
+
+	.para1 {
+
+	}

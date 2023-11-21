@@ -1,0 +1,158 @@
+body{
+	background-color:cornsilk;
+}
+
+img {
+ max-width: 50%;
+ max-height: 50%;
+
+}
+
+h1{
+    font-family: "angie-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
+margin-left: 60px;
+color: #0D2F59;
+
+}
+
+
+h4{
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+	color: goldenrod;
+}
+
+.boat {
+	font size: 1px;
+}
+
+.para1 {
+	color: #0D2F59;
+	  margin-right: 150px;
+  margin-left: 80px;
+font-size:24px;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.sign {  margin-left: 60px;
+
+}
+
+.deadp { margin-left: 60px;
+
+}
+
+.tf {float: right;
+margin-right: 950px;}
+
+
+.people {float: right;
+margin-right: 25px;
+
+}
+
+.people:hover 
+{
+	filter:grayscale(1);
+}
+
+
+
+.type{
+	margin-left: 60px;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+	color: goldenrod;
+	font-size: 20px;
+
+}
+
+.type2 {
+	
+	float: right;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+	color: goldenrod;
+	font-size: 20px;
+	margin-right: -765px;
+
+}
+
+.h1{
+	margin-left: 60px;
+}
+
+.h2{
+	margin-left: 400px;
+}
+
+.h3{
+	margin-left: 700px;
+}
+
+.h5{
+	margin-left: 1100px;
+}
+
+.row
+{align-content: center;}
+
+
+.type3
+{
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;;
+	color: goldenrod;
+	font-size: 20px;
+
+
+}
+
+.stop
+{filter: grayscale(100%);}
+
+
+.stop:hover {
+	filter:grayscale(0%);
+}
+
+
+.poetry {
+	margin-left: 60px;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 24px;
+color: #0D2F59;
+
+}
+
+
+.r1{ margin-left: 60px;
+
+}
+
+.r2{ margin-left: 300px;
+
+}
+
+.r3 {
+	margin-left: 545px;
+	margin-right: 400px;
+}
+
+.r4 {
+	float: right;
+	margin-right: 500px;
+}
+
+
+

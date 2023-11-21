@@ -1,0 +1,317 @@
+ body{
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    pink 0%,
+    pink 50%,
+    paleturquoise 50%,
+    paleturquoise 100%
+  );
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+	font-family: "angie-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
+margin-left: 60px;
+color:#F3F8F2;
+
+}
+
+.er {
+	    display:flex;
+		width: 1000px;
+		height: 500px;
+		justify-content: center;
+		align-content: center
+	}
+
+	h4{
+	color: #F3F8F2;
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.dark
+{
+	align-items: center;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 32px;
+color: #F3F8F2;
+margin-left: 120px;
+margin-right: 120px;
+background-color: transparent;
+padding:1px;
+
+overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+		}
+
+		@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  5% { border-color: whitesmoke; border-top:50%; }
+}
+
+.para1 {
+	  margin-right: 750px;
+  margin-left: 80px;
+  text-align: justify;
+  text-justify: inter-word;
+font-size:24px;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+color:#F3F8F2;
+}
+
+
+#bw {
+  height:500px;
+  position: relative;
+ top: -600px;
+ left: 850px;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.move {
+	position: relative;
+	margin-top: -300px;
+}
+.m1
+{
+	color:#191516;
+	background-color: #F3F8F2;
+	font-family: "findreplace", sans-serif;
+font-weight: 900;
+font-style: normal;
+	font-size:28px;
+	padding: 18px;
+	position: relative;
+	top: -400;
+}
+
+.p1 {
+	display:flex;
+		width: 180px;
+		height: 400px;
+		padding: 70px;
+		}
+
+		.p2 {
+	display:flex;
+		width: 180px;
+		height: 400px;
+		padding: 70px
+		}
+
+		.p3 {
+	display:flex;
+		width: 180px;
+		height: 400px;
+		padding: 70px
+		}
+
+.photos1
+
+{
+
+
+ position: relative;
+  left: 20px;
+  top: -10px;
+  display:flex;
+  flex-direction: row;
+    width: 100%;
+ margin-left: 230px;
+
+}
+
+
+.p4 {
+	display:flex;
+		width: 180px;
+		height: 400px;
+		padding: 70px;
+		}
+
+		.p5 {
+	display:flex;
+		width: 180px;
+		height: 400px;
+		padding: 70px
+		}
+
+		.p6 {
+	display:flex;
+		width: 180px;
+		height: 400px;
+		padding: 70px
+		}
+
+.photos2
+
+{
+
+
+ position: relative;
+  left: 20px;
+  top: -550px;
+  display:flex;
+  flex-direction: row;
+    width: 100%;
+ margin-left: 230px;
+ opacity: 0;
+ transition: all 0.7s ease;
+
+}
+
+.photos2:hover {
+	opacity: 1;
+}
+
+.text2 {
+	align-items: center;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 32px;
+color: #F3F8F2;
+margin-left: 120px;
+margin-right: 120px;
+margin-top: -525px;
+
+}
+
+.card1
+
+{
+	display:flex;
+		width: 260px;
+		height: 700px;
+		padding: 70px;
+		margin-left: 140px;
+}
+
+.card2
+
+{
+	display:flex;
+		width: 250px;
+		height: 962px;
+		padding: 70px;
+		margin-left: 68px;
+		margin-top: -970px;
+		opacity: 0;
+		transition: all 0.7s ease;
+}
+
+.card2:hover{
+	opacity: 1;
+}
+
+
+
+.dialogue
+{
+	align-items: center;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 32px;
+color: #F3F8F2;
+margin-left: 120px;
+margin-right: 120px;
+background-color: transparent;
+padding:1px;
+margin-top: 100px;
+
+overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+		}
+
+		@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  5% { border-color: whitesmoke; border-top:50%; }
+}
+
+
+.m2
+{
+	color:#191516;
+	background-color: #F3F8F2;
+	font-family: "findreplace", sans-serif;
+font-weight: 900;
+font-style: normal;
+	font-size:28px;
+	margin-top: 100px;
+
+
+}
+
+.poetry {  margin-left: 80px;
+	text-align: left;
+	font-size:24px;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+color:#F3F8F2;
+position: relative;
+  top: 100px;
+
+
+}
+
+
+.song {
+	position: relative;
+	max-width: 50%;
+	margin-left: 600px;
+	top: -400px;
+}
+
+}

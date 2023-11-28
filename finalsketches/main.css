@@ -1,0 +1,13 @@
+body {
+	background-color: #124559;
+}
+
+.time {
+	text-align: center;
+	color:yellow;
+	margin-top: 400px;
+		font-family: "findreplace", sans-serif;
+font-weight: 900;
+font-style: normal;
+	font-size:28px;
+}

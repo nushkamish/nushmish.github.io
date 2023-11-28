@@ -1,0 +1,277 @@
+body {
+	background-color: #0B5783;
+	  transition: background 0.3s ease;
+}
+
+
+.heading{
+	color:#FCA311;
+	font-family: "angie-sans", sans-serif;
+font-weight: 600;
+font-style: normal;
+margin-left: 60px;
+}
+
+.er {
+	    display:flex;
+		width: 1000px;
+		height: 500px;
+		justify-content: center;
+		align-content: center
+	}
+
+		h4{
+	color: #FCA311;
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.t1{
+	color: #FCA311;
+  font-family: "edita", serif;
+font-weight: 400;
+font-style: italic;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.sit 
+
+{
+
+
+ position: relative;
+  display:flex;
+  flex-direction: row;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+.p1 {
+	display:flex;
+		padding: 70px;
+		max-height: 50%;
+		max-zoom: 50%;
+		}
+
+		.p2 {
+	display:flex;
+		max-height: 50%;
+		max-zoom: 50%;
+		padding: 70px
+		}
+
+		.p3 {
+	display:flex;
+		max-height: 50%;
+		max-zoom: 50%;
+		padding: 70px
+		}
+
+
+.para1 {
+	  margin-right: 80px;
+  margin-left: 80px;
+  text-align: justify;
+  text-justify: inter-word;
+font-size:24px;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+color:#FCA311;
+}
+
+
+
+.ma1
+{
+	color:#0B5783;
+	background-color: #FCA311;
+font-size:24px;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+	font-size:28px;
+	padding: 18px;
+	position: relative;
+	top: -400;
+}
+
+
+.t2{
+	color: #FCA311;
+  font-family: "edita", serif;
+font-weight: 400;
+font-style: italic;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+
+.t2 span {
+  position: relative;
+  display: inline-block;
+  animation: t2 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes t2 {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+}
+
+.musicplay {
+	margin-left: 40px;
+	display: flex;
+	flex-direction: row;
+}
+
+.m1
+
+{
+		padding: 30px;
+}
+
+.m2
+
+{
+	padding: 30px;
+
+
+}
+
+.m3
+
+{
+		padding: 30px;
+	
+}
+
+.m4
+
+{
+	padding: 30px;
+
+
+}
+
+
+.t3{
+	color: #FCA311;
+  font-family: "edita", serif;
+font-weight: 400;
+font-style: italic;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.thebox{
+	align-content: center;
+	background-color:#84ACCE;
+	border-radius:10px;
+	height: 300px;
+	width: 600px;
+	text-align: center;
+	justify-content: center;
+}
+
+
+.rob {
+	background-color: #FCA311;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    align-content: center;
+    color:#0B5783;
+  font-family: "edita", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+#promptDisplay {
+    font-size: 22px;
+    text-align: center;
+}
+
+.promptDisplay{
+	padding-top: 130px;
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+font-size:24px;
+color:#083F5E ;
+text-align:center;
+}
+
+.ma2{
+	
+color:#0B5783;
+	background-color: #FCA311;
+font-size:24px;
+font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+	font-size:28px;
+	padding: 18px;
+	position: relative;
+	top: -400;
+
+}
+
+.sky
+{
+	display:flex;
+		width: 1000px;
+		height: 500px;
+		justify-content: center;
+		align-content: center
+}
+
+.caption {
+	color: #FCA311;
+	font-family: "edita", serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.poetry {  margin-left: 80px;
+	text-align: left;
+	font-size:24px;
+	font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+color:#FCA311;
+position: relative;
+  top: 100px;
+
+
+}
+

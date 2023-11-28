@@ -1,14 +1,15 @@
 
-let body = document.body;
-let headlines = document.querySelectorAll("h1");
+ let blobs = document.querySelectorAll(".blob");
+  let container = document.querySelector(".wrapper");
+  // place our blobs randomly
 
-console.log(headlines);
+container.addEventListener("click", blobDrop)
 
-// uses forEach to loop through all of the headlines
-headlines.forEach(function(headline) {
-  // add an event listener to each individual headline
-  headline.addEventListener('click', function (event) {
-    // toggle the red class on this headline
-    headline.classList.toggle("red");
-  });
-});
+function blobDrop() {
+    let newBlob = document.createElement("div");
+    newBlob.classList.add("blob");
+    container.appendChild(newBlob);
+    newBlob.style.right = event.clientX + "px";
+    newBlob.style.top = event.clientY + "px";
+    console.log(event, event.clientX);
+}

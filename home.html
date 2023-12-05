@@ -77,8 +77,9 @@
         img.src = imageUrl;
         img.alt = `Image ${index + 1}`;
         img.style.width = "150px"; /* Adjust size as needed */
-        img.style.left = getRandomPosition();
-        img.style.top = getRandomPosition();
+        const { x, y } = getRandomPosition();
+        img.style.left = `${x}px`;
+        img.style.top = `${y}px`;
         img.style.transform = `rotate(${getRandomRotation()}deg)`;
         img.style.transition = `opacity 2s ${index * 0.5}s`;
 
@@ -94,7 +95,10 @@
     function getRandomPosition() {
       const maxX = window.innerWidth - 150; /* Adjust based on image width */
       const maxY = window.innerHeight - 150; /* Adjust based on image height */
-      return `${Math.random() * maxX}px, ${Math.random() * maxY}px`;
+      return {
+        x: Math.random() * maxX,
+        y: Math.random() * maxY
+      };
     }
 
     function getRandomRotation() {

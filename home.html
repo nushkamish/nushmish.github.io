@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.typekit.net/jps2eer.css">
-    <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
   <title>Reflection River</title>
   <style>
     body {
@@ -27,6 +27,14 @@
       opacity: 0.9; /* Adjust opacity as needed */
     }
 
+    button {
+      background: none;
+      border: none;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+    }
+
     @keyframes fadeIn {
       to {
         opacity: 1;
@@ -47,6 +55,21 @@
     #title a {
       color: inherit;
       text-decoration: none;
+
+    }
+      a:link {
+  color: #2A4494;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2A4494;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #002B8F;
+}
     }
   </style>
 </head>
@@ -72,7 +95,27 @@
         "t10.png"
       ];
 
+      // Replace these links with your own
+      const links = [
+        "https://nushkamish.github.io/nushmish.github.io/entries/entry1/index_2.html",
+        "https://nushkamish.github.io/nushmish.github.io/entries/entry2/index_2.html",
+        "https://nushkamish.github.io/nushmish.github.io/entries/entry3/index_2.html",
+        "https://nushkamish.github.io/nushmish.github.io/entries/entry4/index_2.html",
+        "https://nushkamish.github.io/nushmish.github.io/entries/entry5/index_2.htm",
+        "https://nushkamish.github.io/nushmish.github.io/entries/entry6/index_2.html",
+        "https://nushkamish.github.io/nushmish.github.io/entries/entry7/index_2.html",
+        "https://nushkamish.github.io/nushmish.github.io//entries/entry8/",
+        "https://nushkamish.github.io/nushmish.github.io/entries/entry9/index_2.html",
+        "https://nushkamish.github.io/nushmish.github.io/entries/entry10/index_2.html"
+      ];
+
       imageUrls.forEach((imageUrl, index) => {
+        const button = document.createElement("button");
+        button.type = "button"; // Set button type
+        button.addEventListener("click", function() {
+          window.location.href = links[index];
+        });
+
         const img = document.createElement("img");
         img.src = imageUrl;
         img.alt = `Image ${index + 1}`;
@@ -83,12 +126,12 @@
         img.style.transform = `rotate(${getRandomRotation()}deg)`;
         img.style.transition = `opacity 2s ${index * 0.5}s`;
 
-        imageCollage.appendChild(img);
+        button.appendChild(img);
+        imageCollage.appendChild(button);
 
-       
         void img.offsetWidth;
 
-        img.style.opacity = 0.9; // 
+        img.style.opacity = 0.9; // Adjust opacity as needed
       });
     });
 

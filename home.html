@@ -76,7 +76,7 @@
         const img = document.createElement("img");
         img.src = imageUrl;
         img.alt = `Image ${index + 1}`;
-        img.style.width = "150px"; /* Adjust size as needed */
+        img.style.width = "170px"; 
         const { x, y } = getRandomPosition();
         img.style.left = `${x}px`;
         img.style.top = `${y}px`;
@@ -85,10 +85,10 @@
 
         imageCollage.appendChild(img);
 
-        // Triggering reflow to enable CSS transition
+       
         void img.offsetWidth;
 
-        img.style.opacity = 0.9; // Adjust opacity as needed
+        img.style.opacity = 0.9; // 
       });
     });
 

@@ -292,6 +292,8 @@ font-style: normal;
     top: -6900px; /* Adjust the top position based on your design */
   }
 
+}
+
 
 
 
@@ -305,7 +307,7 @@ font-size: 32px;
 color: #F3F8F2;
 margin-left: 120px;
 margin-right: 120px;
-margin-top: -7600px;
+margin-top: -600px;
 
 }
 
@@ -313,6 +315,7 @@ margin-top: -7600px;
 
 	.text2 {
 		font-size: 18px;
+		margin-top: -7600px;
 	}
 	}
 
@@ -483,4 +486,3 @@ position: relative;
 }
   }
 
-}

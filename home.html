@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="imgs/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/jps2eer.css">
+  <title>Reflection River</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #FFFDED;
+    }
+
+    #image-collage {
+      display: flex;
+      flex-wrap: wrap;
+      height: 100vh;
+      opacity: 0;
+      animation: fadeIn 5s forwards;
+    }
+
+    img {
+      position: absolute;
+      opacity: 0.9; /* Adjust opacity as needed */
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    #title {
+      font-family: "angie-sans", sans-serif;
+      font-size: 96px; /* Adjust font size as needed */
+      color: #2A4494; /* Adjust color as needed */
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #title a {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="image-collage"></div>
+  <div id="title"><a href="https://nushkamish.github.io/nushmish.github.io/index.html">Reflection River</a></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const imageCollage = document.getElementById("image-collage");
+
+      // Replace these image URLs with your own
+      const imageUrls = [
+        "t1.png",
+        "t2.png",
+        "t3.png",
+        "t4.png",
+        "t5.png",
+        "t6.png",
+        "t7.png",
+        "t8.png",
+        "t9.png",
+        "t10.png"
+      ];
+
+      imageUrls.forEach((imageUrl, index) => {
+        const img = document.createElement("img");
+        img.src = imageUrl;
+        img.alt = `Image ${index + 1}`;
+        img.style.width = "150px"; /* Adjust size as needed */
+        img.style.left = getRandomPosition();
+        img.style.top = getRandomPosition();
+        img.style.transform = `rotate(${getRandomRotation()}deg)`;
+        img.style.transition = `opacity 2s ${index * 0.5}s`;
+
+        imageCollage.appendChild(img);
+
+        // Triggering reflow to enable CSS transition
+        void img.offsetWidth;
+
+        img.style.opacity = 0.9; // Adjust opacity as needed
+      });
+    });
+
+    function getRandomPosition() {
+      const maxX = window.innerWidth - 150; /* Adjust based on image width */
+      const maxY = window.innerHeight - 150; /* Adjust based on image height */
+      return `${Math.random() * maxX}px, ${Math.random() * maxY}px`;
+    }
+
+    function getRandomRotation() {
+      return Math.random() * 360;
+    }
+  </script>
+</body>
+</html>

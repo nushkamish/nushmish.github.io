@@ -11,11 +11,56 @@ color: #F9C80E;
 
 }
 
+@media screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+    color: black;
+  }
+}
+
+a:link {
+  color: #F9C80E;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#F9C80E;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#F9C80E; 
+
+
+	}
+
+	@media screen and (max-width: 650px) {
+  /* Change link color to black on small screens */
+  a:link,
+  a:visited {
+    color: black;
+  }
+
+  /* Add more styles if needed for small screens */
+}
+
 h4{
 	color: #F9C80E;
 	font-family: "edita", serif;
 font-weight: 400;
 font-style: normal;
+}
+
+@media screen and (max-width: 650px) {
+
+ h4 {
+    font-size: 18px;
+    color: black;
+     margin-top: -75px;
+  }
+
 }
 
 .con1 {
@@ -27,6 +72,17 @@ font-style: italic;
 	font-size:28px;
 	padding: 18px
 
+}
+
+@media screen and (max-width: 650px) {
+
+
+  .con1{
+    color:#F9C80E;
+	background-color:black;
+	font-size:20px;
+	padding: 15px
+  }
 }
 
 .para1 {
@@ -41,6 +97,17 @@ font-style: normal;
 color:#F9C80E;
 }
 
+@media screen and (max-width: 650px) {
+
+
+  .para1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: -20px;
+  }
+}
+
 .clock 
 {
 	position: relative;
@@ -48,14 +115,41 @@ color:#F9C80E;
   top: -450px;
 }
 
-.lollipop
-{
- position: relative;
+@media screen and (max-width: 650px) {
+
+
+  .clock {
+  	opacity: 0;
+  }
+}
+
+.lollipop {
+  position: relative;
   left: 20px;
   top: -400px;
-  display:flex;
-  flex-direction:row;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.lollipop img {
+  max-width: 100%; 
+  height: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .lollipop {
+    flex-direction: column; 
+    align-items: center; 
+    top: 0;
+    scale: 60%;
+    margin-top: -600px;
+    margin-bottom: 200px;
+  }
+
+  .lollipop .lollipop-item {
+    margin-bottom: 20px; 
+  }
 }
 
 .con2 {
@@ -72,6 +166,16 @@ font-style: italic;
   margin-top:-500px;
 }
 
+@media screen and (max-width: 650px) {
+
+
+  .con2{
+    color:#F9C80E;
+	background-color:black;
+	font-size:20px;
+	padding: 15px
+  }
+}
 .poetry {  margin-left: 80px;
 	text-align: left;
 	font-size:24px;
@@ -84,19 +188,35 @@ position: relative;
 
 }
 
-.mask
+@media screen and (max-width: 650px) {
 
-{
-	position: relative;
-	left: 750px;
-  top: -700px;
+  .poetry {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .mask 
+	{
+		opacity: 0px;
+	}
+
+
+
+@media screen and (max-width: 650px) {
+
+	.mask 
+	{
+		opacity: 0px;
+	}
+
 }
-
 
 @media (max-width: 650px) {
   body {
     background-color: #F9C80E;
   }
+
+
 
   h1 {
   	color: black;
@@ -111,25 +231,38 @@ position: relative;
 
 }
 
-.lollipop
-{
- position: relative;
-  left: 20px;
-  top: -400px;
-  display:flex;
-  flex-direction:column;
-    width: 100%;
-}
+
 
 .er {
-	    display:flex;
-		width: 50px;
-		height: 25px;
-		justify-content: left;
+	    scale: 60%;
+	    margin-left: -250px;
+	    margin-top: -100px;
 
 
 	}
 
-	.para1 {
+	a:link {
+  color: #F9C80E;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#F9C80E;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#F9C80E; 
+
 
 	}
+
+	@media screen and (max-width: 650px) {
+  /* Change link color to black on small screens */
+  a:link,
+  a:visited {
+    color: black;
+  }
+
+  /* Add more styles if needed for small screens */
+}

@@ -10,6 +10,14 @@ color: #003249;
 
 }
 
+@media screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+}
+
 .river 
 
 {
@@ -22,6 +30,15 @@ color: #003249;
 
 }
 
+ @media screen and (max-width: 650px) {
+
+
+   .river {
+   width: 750px;
+		height: 250px;
+  }
+}
+
 .caption
 
 {
@@ -30,6 +47,14 @@ font-family: "edita", serif;
 font-weight: 400;
 font-style: normal;
 color: #003249;
+
+}
+
+@media screen and (max-width: 650px) {
+
+ .caption {
+    font-size: 18px;
+  }
 
 }
 
@@ -44,44 +69,65 @@ color: #003249;
 font-size: 24px;
 }
 
+@media screen and (max-width: 650px) {
+
+
+  .intro {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+  }
+}
 .night {
-	display:flex;
-	flex-direction:row;
-	justify-content: center;
-	margin-right: 20px;
-	margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -10px; 
 }
 
-.p1 {
-	display:flex;
-		width: 280px;
-		height: 500px;
-		padding: 100px;
-		}
-
-		.p2 {
-	display:flex;
-		width: 280px;
-		height: 500px;
-		padding: 100px
-		}
-
-		.p3 {
-	display:flex;
-		width: 280px;
-		height: 500px;
-		padding: 100px;
-		}
-
-
-
+.p1,
+.p2,
+.p3 {
+    width: calc(33.33% - 20px); 
+    height: auto; 
+    margin: 10px;
 }
+
+.p1 img,
+.p2 img,
+.p3 img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+@media screen and (max-width: 650px) {
+    .night {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .p1,
+    .p2,
+    .p3 {
+        width: 100%;
+    }
+}
+
+    
+
+
+
+
 	.poetry{
 		font-size: 18px;
 		font-family:Courier New;
 
 
 		}
+
+
+		
 	
 	.con1 {
 
@@ -91,8 +137,31 @@ font-weight: 500;
 font-style: italic;
 font-size: 32px;
 text-align: center;
-position:relative; top: 675px; right: 725px;
+align-content: center;
+margin-top: 150px;
 	
+}
+
+
+.clip {
+    max-width: 75%;
+    position: relative;
+    top: -300px;
+ 
+}
+
+@media screen and (max-width: 650px) {
+    .clip {
+    	margin-top: -200px;
+    	margin-bottom: -200px;
+    	padding: 0px;
+    	margin-right: 1600px;
+    	margin-left: 2000px;
+    	align-content: left;
+    	align-items: left;
+  scale: 40%;
+     
+    }
 }
 
 	.boat{
@@ -194,26 +263,45 @@ font-style: normal;
 	padding: 10px;
 }
 
-.container{
-
+.container {
     position: relative;
+    display: flex;
+    flex-direction: row;
+
 }
 
-.box1 {
-    position: absolute;
-    left: 50px;
-}
-
-.box2 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
+.box1,
+.box2,
 .box3 {
-    position: absolute;
-    right: 50px;
+	max-width: 800px;
+        height: 200px;
+    margin: 0 auto 20px; 
 }
+
+@media screen and (max-width: 650px) {
+    .container {
+        flex-direction: column;
+       margin-top: 50px;
+       margin-bottom: -200px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 100%;
+        max-width: none;
+        height: 200px;
+        margin: 0 auto 20px; /* Adjust spacing between boxes */
+    }
+}
+
+
+
+
+
+
+
+
 
 .poetry{
 	margin-left: 60px;
@@ -225,13 +313,45 @@ color: #003249;
 
 }
 
-.look
- {  
-	display:flex;
-	flex-direction:row;
-	justify-content: center;
-	margin-right: 100px;
-	margin-left: 250px;
+@media screen and (max-width: 650px) {
+
+  .poetry {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+}
+
+
+.look {
+	align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 400px;
+}
+
+.look img {
+    width: 350px;
+    height: 500px;
+}
+
+@media screen and (max-width: 650px) {
+    .look {
+    	margin-top: 200px;
+        flex-direction: row;
+        align-items: center;
+        scale:60%;
+        width: 350px;
+    	height: 500px;
+    	
+    }
+
+
+	
+
+
 }
 
 .h1 {
@@ -256,6 +376,24 @@ font-weight: 500;
 font-style: italic;
 font-size: 32px;
 color: #003249;
-margin-left: -600px}
+margin-left: -700px;
+margin-bottom: 500px}
+
+@media screen and (max-width: 650px) {
+
+.text {
+	margin-left: 150px;
+color:#003249;
+font-family: "edita", serif;
+font-weight: 500;
+font-style: italic;
+font-size: 32px;
+text-align: center;
+align-content: center;
+margin-top: -450px;
+
+}
+
+}
 
 

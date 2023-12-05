@@ -3,7 +3,15 @@ h1 {
 font-weight: 600;
 font-style: normal;
 margin-left: 60px;
-color: #003249;
+color: #0A141F;
+}
+
+@media screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
 }
 
 body 
@@ -22,6 +30,15 @@ color: #003249;
 font-size: 24px;
 }
 
+@media screen and (max-width: 650px) {
+
+
+  .intro {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+  }
+}
 .river 
 
 {
@@ -32,6 +49,23 @@ font-size: 24px;
 		justify-content: center;
 		align-content: center
 }
+
+
+ .river {
+    width: 100%;
+    height: auto;
+
+  }
+
+  @media screen and (max-width: 650px) {
+
+
+   .river {
+   width: 750px;
+		height: 250px;
+  }
+}
+
 
 .caption
 
@@ -44,11 +78,31 @@ color: #003249;
 
 }
 
+@media screen and (max-width: 650px) {
+
+ .caption {
+    font-size: 18px;
+  }
+
+}
+
 .sights {
 	display:flex;
 	flex-direction:row;
 	justify-content: center;
 	margin-right: 120px;
+}
+
+
+@media screen and (max-width: 650px) {
+
+  .sights, .love {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+
 }
 
 .p1 {
@@ -83,6 +137,37 @@ color: #003249;
 margin-left: 120px;
 margin-right: 120px;
 		}
+
+
+		@media screen and (max-width: 650px) {
+
+ 
+.p1, .p2, .p3{
+
+	display: flex;
+	 flex-direction: column;
+
+
+width: 280px;
+		height: 500px;
+    padding: 1px;
+    box-sizing: border-box;
+    margin-bottom: -60px;
+
+}
+}
+
+@media screen and (max-width: 650px) {
+
+.love1, .love2 {
+   width: 140px;
+		height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+
+}
 
 		.love {
 	display:flex;
@@ -141,7 +226,7 @@ font-size: 32px;
 color: #003249;
 
 overflow: hidden; 
-  border-right: .15em solid orange; 
+  border-right: .15em solid #0A141F; 
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
@@ -158,7 +243,7 @@ overflow: hidden;
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: #0A141F; }
 }
 
 .poet
@@ -172,6 +257,8 @@ overflow: hidden;
 		align-content: center
 
 }
+
+
 
 .mypoem
 
@@ -190,8 +277,51 @@ font-weight: 400;
 font-style: normal;
 font-size: 24px;
 color: #003249;
+margin-bottom: 200px;
 
 }
+
+@media screen and (max-width: 650px) {
+
+	.q {
+
+		 margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    position:relative;
+    top:70px;
+
+	}
+
+
+@media screen and (max-width: 650px) {
+
+  .q, .text1, .text2, .type, .poem {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  }
+
+  @media screen and (max-width: 650px) {
+ 
+  .poet {
+    width: 800px;
+		height: 300px;
+
+  }
+
+
+@media screen and (max-width: 650px) {
+
+  .mypoem {
+    font-size: 25px;
+  }
+
+}
+
+
+
 
 
 

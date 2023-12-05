@@ -11,6 +11,29 @@ color:#F3F8F2;
 
 }
 
+
+@media screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+}
+
+a:link {
+  color: #F3F8F2;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#F3F8F2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFF9EB;
+}
+
 .er {
 	    display:flex;
 		width: 1000px;
@@ -19,11 +42,31 @@ color:#F3F8F2;
 		align-content: center
 	}
 
+	@media screen and (max-width: 650px) {
+
+
+   .er{
+   width: 750px;
+		height: 250px;
+		margin-left: -72px;
+  }
+}
+
+
 	h4{
 	color: #F3F8F2;
 	font-family: "edita", serif;
 font-weight: 400;
 font-style: normal;
+}
+
+@media screen and (max-width: 650px) {
+
+ h4{
+    font-size: 18px;
+    margin-left: 70px;
+  }
+
 }
 
 .dark
@@ -60,6 +103,16 @@ overflow: hidden;
   5% { border-color: whitesmoke; border-top:50%; }
 }
 
+@media screen and (max-width: 650px) {
+
+  .dark{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    margin-left: 90px;
+  }
+  }
+
 .para1 {
 	  margin-right: 750px;
   margin-left: 80px;
@@ -70,6 +123,17 @@ font-family: "edita", serif;
 font-weight: 400;
 font-style: normal;
 color:#F3F8F2;
+}
+
+@media screen and (max-width: 650px) {
+
+
+  .para1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-left: 100px;
+  }
 }
 
 
@@ -95,6 +159,15 @@ color:#F3F8F2;
     to {
         transform:rotate(360deg);
     }
+}
+
+@media screen and (max-width: 650px) {
+
+	#bw {
+
+		opacity: 0;
+	}
+
 }
 
 .move {
@@ -193,6 +266,36 @@ font-style: normal;
 	opacity: 1;
 }
 
+
+@media screen and (max-width: 650px) {
+  .photos1,
+  .photos2 {
+    flex-direction: column; 
+ margin-left: 0;
+  }
+
+  .p1,
+  .p2,
+  .p3,
+  .p4,
+  .p5,
+  .p6 {
+    scale: 25%; /* Make images take full width of their containers */
+    height: auto; /* Allow images to scale proportionally */
+    margin: 0;
+    padding: 0; 
+    margin-left: -200; /* Remove left margin */
+    margin-bottom: 0px; /* Add some spacing between photos */
+  }
+
+  .photos2 {
+    top: -6900px; /* Adjust the top position based on your design */
+  }
+
+
+
+
+
 .text2 {
 	align-items: center;
 	font-family: "edita", serif;
@@ -202,9 +305,20 @@ font-size: 32px;
 color: #F3F8F2;
 margin-left: 120px;
 margin-right: 120px;
-margin-top: -525px;
+margin-top: -7600px;
 
 }
+
+@media screen and (max-width: 650px) {
+
+	.text2 {
+		font-size: 18px;
+	}
+	}
+
+
+
+
 
 .card1
 
@@ -231,6 +345,40 @@ margin-top: -525px;
 
 .card2:hover{
 	opacity: 1;
+}
+
+@media screen and (max-width: 650px) { 
+
+	.card1 {
+
+		scale:40%;
+	}
+
+
+}
+
+@media screen and (max-width: 650px) { 
+
+	.card2 {
+
+		scale:40%;
+
+		margin-left: 115px;
+	}
+
+
+}
+
+@media screen and (max-width: 650px) { 
+
+	.headshot{
+
+		margin-left: -260px;
+		margin-top: -250px;
+		margin-bottom: -300px;
+	}
+
+
 }
 
 
@@ -270,6 +418,16 @@ overflow: hidden;
   5% { border-color: whitesmoke; border-top:50%; }
 }
 
+@media screen and (max-width: 650px) {
+
+  .dialogue{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    margin-left: 90px;
+  }
+  }
+
 
 .m2
 {
@@ -297,6 +455,14 @@ position: relative;
 
 }
 
+@media screen and (max-width: 650px) {
+
+  .poetry{
+    font-size: 18px;
+  }
+
+}
+
 
 .song {
 	position: relative;
@@ -304,5 +470,17 @@ position: relative;
 	margin-left: 600px;
 	top: -400px;
 }
+
+
+
+@media screen and (max-width: 650px) {
+
+  .song{
+    position: relative;
+    scale: 80%;
+    margin-left: 50px;
+	top: 200px;
+}
+  }
 
 }

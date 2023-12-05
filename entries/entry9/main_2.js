@@ -11,3 +11,4 @@ function turnOnLight() {
 
 
 button.addEventListener("click", turnOnLight);
+

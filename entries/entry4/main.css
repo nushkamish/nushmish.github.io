@@ -13,11 +13,27 @@ color: #B0C6CE;
 
 }
 
+@media screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+}
+
 h4 {
 	color:#F1D302;
 	font-family: "edita", serif;
 font-weight: 400;
 font-style: normal;
+}
+
+@media screen and (max-width: 650px) {
+
+ h4 {
+    font-size: 18px;
+  }
+
 }
 
 .para1 {
@@ -29,6 +45,17 @@ font-weight: 400;
 font-style: normal;
 text-align: left;
 color:#B0C6CE;
+}
+
+@media screen and (max-width: 650px) {
+
+
+  .para1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: -20px;
+  }
 }
 
 .m1 {
@@ -109,6 +136,15 @@ font-style: italic;
 color: #E08D79;
 
 }
+
+@media screen and (max-width: 650px) {
+
+  .poetry {
+    font-size: 18px;
+    margin-left: -60px;
+  }
+
+}
  
 
 .colors{
@@ -138,5 +174,177 @@ font-style: italic;
 	font-family: "edita", serif;
 font-weight: 500;
 font-style: italic;
+}
+
+
+img {
+		max-width: 70%;
+		max height: auto;
+
+	}
+
+
+	}
+
+	.alert {
+		display:flex;
+		width: 1500x;
+		height: 300px;
+		justify-content: center;
+		align-content: center
+}
+		.homesick 
+
+		{
+		display:flex;
+		width: 700px;
+		height: 600px;
+		justify-content: left;
+		align-content: left
+}
+
+.swag
+
+		{
+		display:flex;
+		width: 700px;
+		height: 400px;
+		justify-content: right;
+		align-content: right
+}
+
+.catch
+
+		{
+		display:flex;
+		width: 700px;
+		height: 400px;
+		justify-content: left;
+		align-content: left
+}
+
+.artist
+		{
+		display:flex;
+		width: 800px;
+		height: 400px;
+		justify-content: right;
+		align-content: right
+}
+
+.mugged
+		{
+		display:flex;
+		width: 800px;
+		height: 400px;
+		justify-content: left;
+		align-content: left
+}
+
+.notes
+		{
+		display:flex;
+		width: 1200px;
+		height: 400px;
+		justify-content: right;
+		align-content: right
+}
+
+.sorry
+		{
+		display:flex;
+		width: 600px;
+		height: 300px;
+		justify-content: left;
+		align-content: left 
+}
+
+.sign
+		{
+		display:flex;
+		width: 1200px;
+		height: 600px;
+		justify-content: center;
+		align-content: center;
+		margin-bottom: 200px;
+}
+
+@media screen and (max-width: 650px) {
+    .homesick,
+    .swag,
+    .catch,
+    .artist,
+    .mugged,
+    .notes,
+    .sorry {
+        width: 100%;
+        max-width: none;
+        margin: 0 0 1px; /* Adjust spacing between images */
+    }
+
+    .signs1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 20px;
+        margin-right:20px ;
+            }
+
+    .signs1 .homesick,
+    .signs1 .swag,
+    .signs1 .catch,
+    .signs1 .artist,
+    .signs1 .mugged,
+    .signs1 .notes,
+    .signs1 .sorry {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+    .row2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.colors {
+		width: 1600px;
+		height: 800px;
+		justify-content: center;
+		align-content: center;
+		margin-left:10px;
+
+
+
+}
+
+.nav
+
+	{
+	position: relative;top:1500px ;
+		margin-left: -1200px;
+		padding-bottom: 10px;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+color: #003249;
+	}
+
+	a:link {
+  color:#F1D302;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#F1D302;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E08D79;
 }
 

@@ -12,6 +12,29 @@ font-style: normal;
 margin-left: 60px;
 }
 
+@media screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 24px;
+    margin-left: -45px;
+  }
+}
+
+a:link {
+  color: #FCA311;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#FCA311;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#CB7301; 
+ text-decoration: none;}
+
+
 .er {
 	    display:flex;
 		width: 1000px;
@@ -20,11 +43,29 @@ margin-left: 60px;
 		align-content: center
 	}
 
+	@media screen and (max-width: 650px) {
+
+    .er {
+      scale:55%;
+      margin-left: -250px;
+      margin-top: -100px;
+    }
+  }
+
 		h4{
 	color: #FCA311;
 	font-family: "edita", serif;
 font-weight: 400;
 font-style: normal;
+}
+
+@media screen and (max-width: 650px) {
+
+ h4 {
+    font-size: 18px;
+         margin-top: -75px;
+  }
+
 }
 
 .t1{
@@ -38,6 +79,14 @@ font-style: italic;
   width: 100%;
   text-align: center;
 
+}
+
+@media screen and (max-width: 650px) {
+.t1 {
+	font-size: 18px;
+	margin-left: 20px;
+
+}
 }
 
 .sit 
@@ -75,6 +124,15 @@ font-style: italic;
 		padding: 70px
 		}
 
+		@media screen and (max-width: 650px) {
+.sit {
+display: flex;
+flex-direction: column;
+}
+
+
+}
+
 
 .para1 {
 	  margin-right: 80px;
@@ -86,6 +144,17 @@ font-family: "edita", serif;
 font-weight: 400;
 font-style: normal;
 color:#FCA311;
+}
+
+@media screen and (max-width: 650px) {
+
+
+  .para1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: -20px;
+  }
 }
 
 
@@ -202,6 +271,17 @@ font-style: italic;
 	justify-content: center;
 }
 
+@media screen and (max-width: 650px) {
+.thebox{
+	height: 300px;
+	width: 450px;
+	text-align: center;
+	justify-content: center;
+
+
+}
+}
+
 
 .rob {
 	background-color: #FCA311;
@@ -254,6 +334,12 @@ font-style: normal;
 		align-content: center
 }
 
+@media screen and (max-width: 650px) {
+	{
+		.sky: 50%;
+	}
+}
+
 .caption {
 	color: #FCA311;
 	font-family: "edita", serif;
@@ -274,4 +360,11 @@ position: relative;
 
 
 }
+
+@media screen and (max-width: 650px) {
+
+  .poetry {
+    font-size: 18px;
+    margin-left: 18px;
+  }
 

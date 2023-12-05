@@ -10,6 +10,29 @@ font-style: normal;
 margin-left: 60px;
 }
 
+@media screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 24px;
+    margin-left: -45px;
+  }
+}
+
+
+a:link {
+  color: #124E78;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#124E78;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#1C2035; 
+ text-decoration: none;}
+
 .er {
 	    display:flex;
 		width: 1000px;
@@ -18,11 +41,30 @@ margin-left: 60px;
 		align-content: center
 	}
 
+	 @media screen and (max-width: 650px) {
+
+    .er {
+      scale:55%;
+      margin-left: -250px;
+      margin-top: -100px;
+    }
+  }
+
+
 		h4{
 	color: #124E78;
 	font-family: "edita", serif;
 font-weight: 400;
 font-style: normal;
+}
+
+@media screen and (max-width: 650px) {
+
+ h4 {
+    font-size: 18px;
+         margin-top: -75px;
+  }
+
 }
 
 
@@ -38,6 +80,17 @@ font-style: normal;
 color:#124E78;
 }
 
+@media screen and (max-width: 650px) {
+
+
+  .para1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: -20px;
+  }
+}
+
 .t1{
 	color: #124E78;
   font-family: "edita", serif;
@@ -51,6 +104,16 @@ color:#E1CE7A
   text-align: center;
 
 }
+
+@media screen and (max-width: 650px) {
+.t1 {
+	font-size: 18px;
+	margin-left: 20px;
+
+}
+
+
+
 
 
 
@@ -73,6 +136,14 @@ div.scroll-container img {
 		justify-content: center;
 		align-content: center;
 		margin-left:275px;
+}
+
+@media screen and (max-width: 650px) { 
+
+.ergif {
+	scale: 50%;
+	margin-left: -250px;
+}
 }
 
 .music {
@@ -109,3 +180,10 @@ position: relative;
 
 
 }
+
+@media screen and (max-width: 650px) {
+
+  .poetry {
+    font-size: 18px;
+    margin-left: 18px;
+  }

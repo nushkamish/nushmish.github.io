@@ -12,6 +12,14 @@ body {
   margin-top: 270px;
 }
 
+@media screen and (max-width: 650px) {
+
+  .sun {
+    opacity: 0;
+  }
+
+}
+
 .flower {
   position: absolute;
   left: 520px;
@@ -20,6 +28,13 @@ body {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 650px) {
+
+  .flower {
+    opacity: 0;
+  }
+
+}
 .bloo {
   position: relative;
   left: 480px;
@@ -29,10 +44,28 @@ body {
   margin-left: 600px;
 }
 
+@media screen and (max-width: 650px) {
+
+  .bloo {
+    opacity: 0;
+  }
+
+}
+
 .er3
 {
 		margin-top: -300px;
 }
+
+
+@media screen and (max-width: 650px) {
+
+  .er3 {
+    scale:70%;
+    margin-top: -400px;
+  }
+}
+
 
 h1 {
 	font-family: "angie-sans", sans-serif;
@@ -43,11 +76,28 @@ color: #3A5683;
 
 }
 
+@media screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+}
+
 h4 {
 	color:#3A5683;
 font-family: "edita", serif;
 font-weight: 500;
 font-style: normal;
+margin-top: -30px;
+}
+
+@media screen and (max-width: 650px) {
+
+ h4 {
+    font-size: 18px;
+  }
+
 }
 
 .para1 {
@@ -67,6 +117,17 @@ border-width: 6px;
 padding: 30px;
 }
 
+@media screen and (max-width: 650px) {
+
+
+  .para1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: -20px;
+  }
+}
+
 .note { position: relative;
   left: 250px;
   top: -550px;
@@ -76,15 +137,45 @@ padding: 30px;
 
 }
 
+
+
+@media screen and (max-width: 650px) {
+
+.note,
+.music,
+.audio {
+
+  opacity: 0;
+}
+  
+
+  }
+
 .polaroids
 {
  position: relative;
   left: 20px;
-  top: -350px;
+  top: -px;
   display:flex;
   flex-direction: row;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 .poetry 
 
@@ -105,7 +196,27 @@ border-radius: 20px;
 background-color: #F8D34F;
 border-width: 6px;
 padding: 30px;
+} 
+
+
+@media screen and (max-width: 650px) {
+
+  .poetry{
+
+font-size:18px;
+margin-left: -1250px;
+
 }
+
+}
+
+
+
+
+
+
+
+
 
 /*.musicb
 
@@ -153,10 +264,176 @@ font-family: "edita", serif;
 font-weight: 500;
 font-style: italic;
 color: #3A5683;
+margin-top: -350px;
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .text1 {
+
+font-size:26px;
+margin-top: -400px;
+margin-left: -725px;
+
+}
 
 }
 
 
+.er3 {
+      display:flex;
+    width: 1000x;
+    height: 500px;
+    justify-content: center;
+    align-content: center
+  }
+
+.sun {
+   display:flex;
+    width: 500x;
+    height: 250px;
+    justify-content: left;
+
+}
+
+.flower { 
+  display:flex;
+    width: 700px;
+    height: 400px;
+    justify-content: right;
+
+}
+
+.bloo {
+  display:flex;
+    width: 350px;
+    height: 350px;
+    justify-content: right;
+}
+
+.note{
+  display:flex;
+    width: 500px;
+    height: 500px;
+    justify-content: right;
+}
+
+.p1 {
+  display:flex;
+    width: 180px;
+    height: 400px;
+    padding: 70px;
+    }
+
+    .p2 {
+  display:flex;
+    width: 180px;
+    height: 400px;
+    padding: 70px
+    }
+
+    .p3 {
+  display:flex;
+    width: 180px;
+    height: 400px;
+    padding: 70px
+    }
+
+    .p4 {
+  display:flex;
+    width: 180px;
+    height: 400px;
+    padding: 70px
+    }
+
+    .musicb {
+      display:flex;
+      width: 200px;
+    height: 400px;
+    scale: 25%;
+    }
+
+    .c1 { display:flex;
+      width: 200px;
+    height: 500px;
+    }
+
+    .c2 { display:flex;
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+
+    }
+
+    .c3 { display:flex;
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+
+    }
+    .c4 { display:flex;
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+
+    }
+
+
+    .nav
+
+  {
+  position: relative;top:1200px ;
+    margin-left: -100px;
+    padding-bottom: 10px;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+color: #003249;
+  }
+
+  a:link {
+  color: #3A5683;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#3A5683;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#F8D34F;
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .p1 {
+
+    width: 200px;
+    height: 500px;
+    margin-top: -300px;
+    margin-left: -40px;
+
+  }
+
+  @media screen and (max-width: 650px) {
+
+  
+  .p2,
+  .p3,
+  .p4 {
+
+  opacity: 0;
+
+  }
+
+
+
+
+
+}
 
 
 
